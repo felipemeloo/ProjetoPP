@@ -3,5 +3,7 @@
 	<classpathentry kind="src" path="ProjetoPP/ParadigmasProgramação/src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/pedro/Downloads/servlet-api-3.0-alpha-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pedro/Downloads/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/pedro/Downloads/tomcat-servlet-api-9.0.1.jar"/>
 	<classpathentry kind="output" path="ProjetoPP/ParadigmasProgramação/bin"/>
 </classpath>
