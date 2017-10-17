@@ -13,7 +13,12 @@ import servicos.ServicoLogin;
 
 @WebServlet("/logar")
 public class LoginServlet extends HttpServlet {
-    @Override
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 3282193949240670250L;
+
+	@Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String login = req.getParameter("cpf");
         String senha = req.getParameter("senha");
