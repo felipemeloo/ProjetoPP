@@ -12,7 +12,6 @@ public class UsuarioDao implements IUsuarioDao {
         conexao = new Conexao();
     }
 
-    @Override
     public void inserir(Usuario u) {
         String sql = "INSERT INTO usuario(cpf, email, nome, senha, instituicao, fone, matricula) VALUES (?, ?, ?, ?)";
 
