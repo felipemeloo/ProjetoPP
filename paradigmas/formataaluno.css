@@ -1,0 +1,92 @@
+	.texto{    
+		 margin-top: 138px;
+			text-align: center;
+		}
+		
+		p.sansserif {
+    			font-family: Arial, Helvetica, sans-serif;
+			}
+
+ 	
+	body { 
+  	color: grey; 
+		}
+body {
+    background-color: #778899;
+}
+
+input[type=text], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.page-bg {
+  background: url('autores-nordestinos.jpg');
+background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+div {
+    border-radius: 40px;
+    background-color: #f2f2f2;
+    padding: 8px;
+    width:  60%;
+    margin: 0 auto;
+   
+}
+#caixinha {
+    opacity: 0.8;
+}
+
+body {
+  font-family: "Arial";
+ 
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.texto2 {
+	padding-right: 50px;
+}
