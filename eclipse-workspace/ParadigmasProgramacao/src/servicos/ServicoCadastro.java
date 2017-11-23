@@ -11,7 +11,7 @@ public class ServicoCadastro {
         this.usuarioDao = new UsuarioDao();
     }
 
-    public void cadastrar(String cpf, String email, String nome, String senha, String instituicao, String fone, String matricula) {
-        usuarioDao.inserir(new Usuario(cpf, email, nome, senha, instituicao, fone, matricula));
+    public void cadastrar(String cpf, String email, String nome, String senha, String instituicao, String fone, String matricula, String tipo) {
+        //usuarioDao.inserir(new Usuario(cpf, email, nome, senha, instituicao, fone, matricula, tipo));
     }
 }
