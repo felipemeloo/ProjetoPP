@@ -44,7 +44,7 @@ input[type=password], select {
     box-sizing: border-box;
 } 
 .page-bg {
-  background: url('fachada.png');
+  background: url('https://abrilveja.files.wordpress.com/2016/05/reitoria-3-original1.jpeg?quality=70&strip=info&w=999');
 background-size: cover;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
@@ -73,7 +73,7 @@ div {
 	</style>
   </head>
   <body>
-	<img src="ifb.png" width="400px";  margin-left = "460px"; >
+	<img src="https://lh5.googleusercontent.com/proxy/bmR_KPT9JF4PohoeG6RW50JVGjXSwTtg-lbnjztlZjkdoMIadbtpO_qlml7YQ3y_gt5wXDkldP67aR7yMXKDwJCQKQAwDa9uW_s4WTCY=w5000-h5000" width="400px";  margin-left = "460px"; >
 <div class="page-bg">
 </div>
 <div id="caixinha">	

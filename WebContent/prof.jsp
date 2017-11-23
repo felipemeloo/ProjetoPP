@@ -37,7 +37,7 @@ input[type=submit] {
     cursor: pointer;
 }
 .page-bg {
-  background: url('autores-nordestinos.jpg');
+  background: url(' http://www.brockpress.com/wp-content/uploads/2015/01/Edu-school-books.jpg');
 background-size: cover;
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
@@ -72,7 +72,7 @@ body {
 </style>
   </head>
   <body> 
-	<img src="ifb.png" width="400px";  margin-left = "460px"; >
+	<img src=" https://lh5.googleusercontent.com/proxy/bmR_KPT9JF4PohoeG6RW50JVGjXSwTtg-lbnjztlZjkdoMIadbtpO_qlml7YQ3y_gt5wXDkldP67aR7yMXKDwJCQKQAwDa9uW_s4WTCY=w5000-h5000" width="400px";  margin-left = "460px"; >
 <div class="page-bg">
 </div>
 <div id="caixinha">
