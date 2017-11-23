@@ -4,30 +4,33 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import dominio.Usuario;
+
+
 public class Conexao {
-    private final String DATABASE_URL = "jdbc:postgresql://localhost/forum";
-    private final String DATABASE_USUARIO = "postgres";
-    private final String DATABASE_SENHA = "admin";
-    private Connection conexao;
 
-    static {
-        try {
-            Class.forName("org.postgresql.Driver");
-        } catch (ClassNotFoundException e) {
-            throw  new RuntimeException("Driver do banco de dados não encontrado", e);
-        }
-    }
 
-    public Connection getConexao() {
-        try {
-            if (conexao != null) {
-                return conexao;
-            }
+ 
+    public Connection getConexao(){
+    try {
+    //DriverManager.registerDriver(new com.mysql.jdbc.Driver());
+    Class.forName("com.mysql.jdbc.Driver").newInstance();
+    return DriverManager.getConnection(
+"jdbc:mysql://localhost:3306/forum", "root", "admin");
+     } catch (SQLException e) {
+         throw new RuntimeException(e);
+     } catch (InstantiationException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (IllegalAccessException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+} catch (ClassNotFoundException e) {
+// TODO Auto-generated catch block
+e.printStackTrace();
+}
+    return null;
+     }
+     
 
-            conexao = DriverManager.getConnection(DATABASE_URL, DATABASE_USUARIO, DATABASE_SENHA);
-            return conexao;
-        } catch (SQLException e) {
-            throw  new RuntimeException("Não foi possível estabelecer uma conexão com o banco de dados", e);
-        }
-    }
 }
